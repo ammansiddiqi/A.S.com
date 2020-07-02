@@ -1,0 +1,29 @@
+p { 
+    margin-left: 40px;
+}
+.flex-container {
+   
+    display: flex;
+    
+  
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    background-image: url(https://physics.aps.org/assets/c042419f-2009-4d97-beac-874b3eaaca29/es61_1.png);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
